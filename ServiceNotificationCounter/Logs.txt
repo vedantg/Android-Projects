@@ -1,0 +1,115 @@
+Name : Vedant A Godhamgaonkar
+ID : A20353267
+Assignment : 6
+
+Log Details :
+
+Example : Counting Starting from value other than 1 i.e here "5" ==>
+
+03-21 20:07:51.006 31002-31002/com.cs442.vgodhamg.servicenotificationcounter D/Assignment6-->Log Display-->: Service Has Been Started
+03-21 20:07:51.029 31002-31002/com.cs442.vgodhamg.servicenotificationcounter D/Assignment6-->Log Display-->: Counter Starting From : 5
+03-21 20:07:51.815 31002-31002/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 5
+03-21 20:07:52.379 31002-31002/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 6
+03-21 20:07:53.097 31002-31002/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 7
+03-21 20:07:54.094 31002-31002/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 8
+03-21 20:07:55.094 31002-31002/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 9
+03-21 20:07:56.094 31002-31002/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 10
+03-21 20:07:57.095 31002-31002/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 11
+03-21 20:07:58.094 31002-31002/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 12
+03-21 20:07:59.094 31002-31002/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 13
+03-21 20:08:00.094 31002-31002/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 14
+03-21 20:08:00.568 31002-31002/com.cs442.vgodhamg.servicenotificationcounter D/Assignment6-->Log Display-->: Notification Has Been Sent To The User..!!
+03-21 20:08:01.095 31002-31002/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 15
+03-21 20:08:02.094 31002-31002/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 16
+03-21 20:08:03.094 31002-31002/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 17
+03-21 20:08:04.094 31002-31002/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 18
+03-21 20:08:05.095 31002-31002/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 19
+03-21 20:08:06.122 31002-31002/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 20
+03-21 20:08:07.094 31002-31002/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 21
+03-21 20:08:08.102 31002-31002/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 22
+03-21 20:08:09.102 31002-31002/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 23
+03-21 20:08:10.102 31002-31002/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 24
+03-21 20:08:10.196 31002-31002/com.cs442.vgodhamg.servicenotificationcounter D/Assignment6-->Log Display-->: Notification Has Been Sent To The User..!!
+03-21 20:08:11.095 31002-31002/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 25
+03-21 20:08:12.095 31002-31002/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 26
+03-21 20:08:13.095 31002-31002/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 27
+03-21 20:08:14.095 31002-31002/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 28
+03-21 20:08:15.095 31002-31002/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 29
+03-21 20:08:16.096 31002-31002/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 30
+03-21 20:08:17.096 31002-31002/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 31
+03-21 20:08:18.096 31002-31002/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 32
+03-21 20:08:19.096 31002-31002/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 33
+03-21 20:08:20.096 31002-31002/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 34
+03-21 20:08:20.482 31002-31002/com.cs442.vgodhamg.servicenotificationcounter D/Assignment6-->Log Display-->: Notification Has Been Sent To The User..!!
+03-21 20:08:21.097 31002-31002/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 35
+03-21 20:08:22.097 31002-31002/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 36
+03-21 20:08:23.375 31002-31002/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 37
+03-21 20:08:23.844 31002-31002/com.cs442.vgodhamg.servicenotificationcounter D/Assignment6-->Log Display-->: Counter Stopped At : 37
+03-21 20:08:23.844 31002-31002/com.cs442.vgodhamg.servicenotificationcounter D/Assignment6-->Log Display-->: Service Has Been Stopped
+
+
+
+Example : Counting Starting from value "1"  ==>
+
+03-21 20:11:23.565 12733-12733/com.cs442.vgodhamg.servicenotificationcounter D/Assignment6-->Log Display-->: Service Has Been Started
+03-21 20:11:23.570 12733-12733/com.cs442.vgodhamg.servicenotificationcounter D/Assignment6-->Log Display-->: Counter Starting From : 1
+03-21 20:11:23.757 12733-12733/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 1
+03-21 20:11:24.572 12733-12733/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 2
+03-21 20:11:25.572 12733-12733/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 3
+03-21 20:11:26.572 12733-12733/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 4
+03-21 20:11:27.572 12733-12733/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 5
+03-21 20:11:28.573 12733-12733/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 6
+03-21 20:11:29.573 12733-12733/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 7
+03-21 20:11:30.573 12733-12733/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 8
+03-21 20:11:31.574 12733-12733/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 9
+03-21 20:11:32.238 12733-12733/com.cs442.vgodhamg.servicenotificationcounter D/Assignment6-->Log Display-->: Notification Has Been Sent To The User..!!
+03-21 20:11:32.573 12733-12733/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 10
+03-21 20:11:33.573 12733-12733/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 11
+03-21 20:11:34.573 12733-12733/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 12
+03-21 20:11:35.573 12733-12733/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 13
+03-21 20:11:36.574 12733-12733/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 14
+03-21 20:11:37.574 12733-12733/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 15
+03-21 20:11:38.574 12733-12733/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 16
+03-21 20:11:39.574 12733-12733/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 17
+03-21 20:11:40.575 12733-12733/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 18
+03-21 20:11:41.575 12733-12733/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 19
+03-21 20:11:41.835 12733-12733/com.cs442.vgodhamg.servicenotificationcounter D/Assignment6-->Log Display-->: Notification Has Been Sent To The User..!!
+03-21 20:11:42.575 12733-12733/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 20
+03-21 20:11:44.082 12733-12733/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 21
+03-21 20:11:44.856 12733-12733/com.cs442.vgodhamg.servicenotificationcounter D/Assignment6-->Log Display-->: Counter Stopped At : 21
+03-21 20:11:44.856 12733-12733/com.cs442.vgodhamg.servicenotificationcounter D/Assignment6-->Log Display-->: Service Has Been Stopped
+
+
+Example : User has entered random text and as a result it is an invalid input , thus Counting Starting from default value i.e "1"  ==>
+
+03-21 20:12:13.752 12733-12733/com.cs442.vgodhamg.servicenotificationcounter D/Assignment6-->Log Display-->: Service Has Been Started
+03-21 20:12:13.839 12733-12733/com.cs442.vgodhamg.servicenotificationcounter D/Assignment6-->Log Display-->: Not a valid input, Counter will start from : 1
+03-21 20:12:13.914 12733-12733/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 1
+03-21 20:12:14.840 12733-12733/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 2
+03-21 20:12:15.901 12733-12733/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 3
+03-21 20:12:16.840 12733-12733/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 4
+03-21 20:12:17.841 12733-12733/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 5
+03-21 20:12:18.840 12733-12733/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 6
+03-21 20:12:19.841 12733-12733/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 7
+03-21 20:12:20.847 12733-12733/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 8
+03-21 20:12:21.847 12733-12733/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 9
+03-21 20:12:22.420 12733-12733/com.cs442.vgodhamg.servicenotificationcounter D/Assignment6-->Log Display-->: Notification Has Been Sent To The User..!!
+03-21 20:12:22.847 12733-12733/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 10
+03-21 20:12:23.848 12733-12733/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 11
+03-21 20:12:24.848 12733-12733/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 12
+03-21 20:12:25.848 12733-12733/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 13
+03-21 20:12:26.848 12733-12733/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 14
+03-21 20:12:27.849 12733-12733/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 15
+03-21 20:12:28.848 12733-12733/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 16
+03-21 20:12:29.849 12733-12733/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 17
+03-21 20:12:30.849 12733-12733/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 18
+03-21 20:12:31.849 12733-12733/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 19
+03-21 20:12:33.192 12733-12733/com.cs442.vgodhamg.servicenotificationcounter D/Assignment6-->Log Display-->: Notification Has Been Sent To The User..!!
+03-21 20:12:33.192 12733-12733/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 20
+03-21 20:12:33.852 12733-12733/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 21
+03-21 20:12:34.852 12733-12733/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 22
+03-21 20:12:35.852 12733-12733/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 23
+03-21 20:12:36.932 12733-12733/com.cs442.vgodhamg.servicenotificationcounter I/Assignment6-->Log Display-->: Counter Value : 24
+03-21 20:12:37.005 12733-12733/com.cs442.vgodhamg.servicenotificationcounter D/Assignment6-->Log Display-->: Counter Stopped At : 24
+03-21 20:12:37.005 12733-12733/com.cs442.vgodhamg.servicenotificationcounter D/Assignment6-->Log Display-->: Service Has Been Stopped
+

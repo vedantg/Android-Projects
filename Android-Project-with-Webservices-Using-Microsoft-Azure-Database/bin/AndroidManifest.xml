@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="BE.Thoughtbeat"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="7" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/launch11"
+        android:label="ThoughtBeat"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.ll.login"
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.ll.HOME"
+            android:label="@string/title_activity_home" >
+        </activity>
+        <activity
+            android:name="com.example.ll.inst"
+            android:label="INSTITUTE" >
+        </activity>
+        <activity
+            android:name="com.example.ll.information"
+            android:label="INFORMATION" >
+        </activity>
+        <activity
+            android:name="com.example.ll.Search"
+            android:label="SEARCH" >
+        </activity>
+        <activity
+            android:name="com.example.ll.Anim"
+            android:label="@string/title_activity_anim" >
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+
+</manifest>

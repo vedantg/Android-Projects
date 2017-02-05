@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".HOME"
+     android:background="@drawable/black_bg" >
+     
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="horizontal" >
+
+<LinearLayout
+       xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/lincomp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="15"  >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/lincomp"
+        android:layout_width="fill_parent"
+        android:layout_height="91dp"
+        android:orientation="horizontal"
+        android:weightSum="6" >
+
+        <ImageView
+            android:id="@+id/back_act"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="5dp"
+            android:src="@drawable/bak2" />
+
+        <ImageView
+            android:id="@+id/thought_insy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="4.07"
+            android:paddingBottom="5dp"
+            android:src="@drawable/a1" />
+
+        <ImageView
+            android:id="@+id/act_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/home5" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="2"
+        android:paddingLeft="20dp"
+        android:text="Institute Name"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#00C9FA"
+        android:textSize="23sp" />
+
+    <TextView
+        android:id="@+id/inst_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="40dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff"
+        android:textSize="19sp"
+         android:layout_weight="1"
+          android:layout_gravity="center"
+           />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:text="Address"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#00C9FA"
+        android:textSize="23sp"
+         android:layout_weight="1"
+          android:layout_gravity="center"
+           />
+
+    <TextView
+        android:id="@+id/inst_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="40dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff"
+        android:textSize="19sp"
+         android:layout_weight="1"
+          android:layout_gravity="center"
+           />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:text="E-mail ID"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#00C9FA"
+        android:textSize="23sp" 
+         android:layout_weight="1"
+          android:layout_gravity="center"
+          />
+
+    <TextView
+        android:id="@+id/inst_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="40dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff"
+        android:textSize="19sp" 
+         android:layout_weight="1"
+          android:layout_gravity="center"
+          />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:text="Contact No."
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#00C9FA"
+        android:textSize="23sp"
+         android:layout_weight="1"
+          android:layout_gravity="center"
+           />
+
+    <TextView
+        android:id="@+id/inst_contct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="40dp"
+        android:paddingTop="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff"
+        android:textSize="19sp" 
+         android:layout_weight="1"
+          android:layout_gravity="center"
+          />
+
+    <ImageView
+        android:id="@+id/apply_button"
+        android:layout_width="193dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/apply12"
+         android:layout_weight="2"
+          android:layout_gravity="center"
+           />
+
+</LinearLayout>
+
+</ScrollView>
+</AbsoluteLayout>

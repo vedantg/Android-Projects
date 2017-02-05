@@ -1,0 +1,23 @@
+Name : Vedant A Godhamgaonkar
+ID :A20353267
+Assignment:FOOD ITEM MENU
+
+Working of an Application "Foodora":
+**********************
+1) Open the Foodora application
+2) First screen will give you the existing menu available at Foodora
+3) If you click any one of the food items, you will be presented with the details in the form of Toast message as well as with Dialog Box.
+4) Toast Message contailns details of each food item. Such as : Price , Ingredients, Taste and User Rating to existing food menu items
+5) Users are allowed to enter the new food items they want to introduce as a part of Menu.
+6) User has to enter three things : 1) Food Item Name 2) Price 3) Ingredients 4) Taste and User has to click button : Add Food Item
+7) This action adds the user entered food item into the Menu
+8) If user wants to delete perticular menu from the list , he has to Long Press the food item, and Food item will be removed from the list by poping the toast message 
+9) Added Functinality : Dialog Box is added, which provides details about the Food Item 
+
+User Interface : Look & Feel
+***************
+1) Added background Images
+2) Changed colours and fonts of texts
+4) Added extra look and feel to ListView by providing separate XML
+5) Added dialog box with details and food menu picture
+6) Adding a comment to check git commands from git bash

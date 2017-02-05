@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".HOME"
+     android:background="@drawable/black_bg" >
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+  
+    android:orientation="vertical" 
+     android:weightSum="6">
+
+        <ImageView
+            android:id="@+id/ImageView04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:src="@drawable/home5"
+            android:visibility="invisible" />
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/lincomp"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/lg_panel2"
+            android:orientation="vertical"
+            android:paddingTop="29dp"
+            android:weightSum="6"
+               android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="217dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="3"
+                android:paddingBottom="5dp"
+                android:src="@drawable/a1" />
+
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/lincomp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.9"
+                android:orientation="horizontal"
+                android:weightSum="8" >
+
+                <ImageView
+                    android:id="@+id/ImageView02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="51dp"
+                    android:layout_weight="2"
+                    android:paddingBottom="5dp"
+                    android:src="@drawable/user_green"
+                    android:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/ImageView03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="51dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="2"
+                    android:src="@drawable/user_green" />
+
+                <EditText
+                    android:id="@+id/userid_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="14dp"
+                    android:layout_weight="4"
+                    android:ems="10"
+                    android:hint="User ID" >
+
+                    <requestFocus />
+                </EditText>
+
+                <ImageView
+                    android:id="@+id/ImageView01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="51dp"
+                    android:layout_weight="2"
+                    android:paddingBottom="5dp"
+                    android:src="@drawable/user_green"
+                    android:visibility="invisible" />
+
+            </LinearLayout>
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/lincomp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.9"
+                android:orientation="horizontal"
+                android:weightSum="8" >
+
+                <ImageView
+                    android:id="@+id/ImageView02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="51dp"
+                    android:layout_weight="2"
+                    android:paddingBottom="5dp"
+                    android:src="@drawable/user_green"
+                    android:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/ImageView03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="51dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="2"
+                    android:src="@drawable/greenlock3png" />
+
+               <EditText
+                   android:id="@+id/editText1"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center_horizontal|fill_horizontal"
+                   android:layout_marginTop="14dp"
+                   android:layout_weight="4"
+                   android:ems="10"
+                   android:hint="Password"
+                   android:inputType="textPassword" >
+      
+					  </EditText>
+
+                <ImageView
+                    android:id="@+id/ImageView01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="51dp"
+                    android:layout_weight="2"
+                    android:paddingBottom="5dp"
+                    android:src="@drawable/user_green"
+                    android:visibility="invisible" />
+
+            </LinearLayout>
+
+<ImageView
+    android:id="@+id/login_button"
+    android:layout_width="150dp"
+    android:layout_height="100dp"
+    android:layout_gravity="center"
+    android:layout_weight="0.001"
+    android:src="@drawable/login_button1" />
+            
+        </LinearLayout>
+>
+
+   
+
+</LinearLayout>
+
+
+
+</ScrollView>
+</AbsoluteLayout>

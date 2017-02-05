@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     android:background="@drawable/black_bg">
+
+    <ImageView
+        android:id="@+id/inst_fade"
+        android:layout_width="291dp"
+        android:layout_height="500dp"
+        android:layout_x="13dp"
+        android:layout_y="60dp"
+        android:src="@drawable/descent"
+        android:visibility="invisible" />
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/lincomp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_x="2dp"
+        android:layout_y="-27dp"
+        android:orientation="vertical"
+        android:paddingTop="25dp"
+        android:weightSum="6" >
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/lincomp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="0dp"
+            android:orientation="horizontal"
+            android:weightSum="6" >
+
+            <ImageView
+                android:id="@+id/back_inst"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingBottom="5dp"
+                android:src="@drawable/bak2" />
+
+            <ImageView
+                android:id="@+id/thought_insy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4.07"
+                android:paddingBottom="5dp"
+                android:src="@drawable/a1" />
+
+            <ImageView
+                android:id="@+id/inst_home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/home5" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/listView1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+        </ListView>
+    </LinearLayout>
+     
+</AbsoluteLayout>

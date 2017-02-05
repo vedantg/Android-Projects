@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".HOME"
+     android:background="@drawable/black_bg" >
+
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation = "vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  
+    
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/lincomp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="6"
+             >
+
+            <ImageView
+                android:id="@+id/home_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingBottom="5dp"
+                android:src="@drawable/bak2" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4.07"
+                android:paddingBottom="5dp"
+                android:src="@drawable/a1" />
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/lincomp"
+            android:layout_width="fill_parent"
+            android:layout_height="540dp"
+
+            android:orientation="vertical"
+            android:weightSum="6" >
+
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/lincomp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.9"
+                android:orientation="horizontal"
+                android:weightSum="6" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="30dp"
+                    android:text="Student ID "
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#00C9FA"
+                      android:layout_gravity="center"
+              
+                    android:textSize="23sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/stud_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="30dp"
+                    android:paddingTop="35dp"
+                    android:text="BES1002"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@android:color/white"
+                      android:layout_gravity="center"
+               />
+
+            </LinearLayout>
+
+               <LinearLayout
+                   xmlns:android="http://schemas.android.com/apk/res/android"
+                   android:id="@+id/lincomp"
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:orientation="horizontal"
+                   android:weightSum="6" >
+
+                   <TextView
+                       android:id="@+id/textView2"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginTop="14dp"
+                       android:paddingLeft="20dp"
+                       android:text="Name "
+                       android:textAppearance="?android:attr/textAppearanceLarge"
+                       android:textColor="#00C9FA"
+                       android:textSize="23sp" 
+                         android:layout_gravity="center"
+              />
+
+                   <TextView
+                       android:id="@+id/textView3"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginLeft="32dp"
+                       android:paddingLeft="50dp"
+                       android:text="First Last"
+                       android:textAppearance="?android:attr/textAppearanceMedium"
+                       android:textColor="@android:color/white" 
+                         android:layout_gravity="center"
+              />
+
+               </LinearLayout>
+
+       <AbsoluteLayout
+           xmlns:android="http://schemas.android.com/apk/res/android"
+           xmlns:tools="http://schemas.android.com/tools"
+           android:layout_width="fill_parent"
+           android:layout_height="186dp"
+           android:layout_alignParentLeft="true"
+           android:layout_below="@+id/textView4"
+           android:paddingLeft="20dp"
+           tools:context=".MainActivity" >
+
+                <ImageView
+                    android:id="@+id/fade_home"
+                    android:layout_width="290dp"
+                    android:layout_height="273dp"
+                    android:layout_x="14dp"
+                    android:layout_y="-40dp"
+                    android:src="@drawable/vik_white" />
+
+                <ListView
+                    android:id="@+id/mainListView"
+                    android:layout_width="226dp"
+                    android:layout_height="150dp"
+                    android:layout_x="22dp"
+                    android:layout_y="19dp"
+                    android:drawSelectorOnTop="true"
+                    android:paddingBottom="0dp"
+                    android:paddingLeft="60dp"
+                    android:paddingTop="0dp"
+                    android:textColor="@android:color/white" >
+                </ListView>
+
+            </AbsoluteLayout>
+        </LinearLayout>
+
+
+   
+
+</LinearLayout>
+
+
+
+</AbsoluteLayout>

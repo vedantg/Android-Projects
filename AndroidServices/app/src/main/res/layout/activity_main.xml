@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:background="@color/background">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/started_service"
+        android:id="@+id/btnStartedService"
+        android:onClick="startedService"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/local_bound_service"
+        android:id="@+id/btnLocalBoundService"
+        android:onClick="localBoundService"
+        android:layout_below="@+id/btnStartedService"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/remote_bound_service"
+        android:id="@+id/btnRemoteBoundService"
+        android:onClick="remoteBoundService"
+        android:layout_below="@+id/btnLocalBoundService"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/notification"
+        android:id="@+id/btnNotification"
+        android:onClick="notification"
+        android:layout_below="@+id/btnRemoteBoundService"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

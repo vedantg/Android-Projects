@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="40dp"
+        android:layout_height="60dp"
+        android:text=""
+        android:focusable="false"
+        android:textColor="@color/white"
+        android:focusableInTouchMode="false"
+        android:buttonTint="@color/white"
+        android:layout_marginTop="5dp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="FoodItem"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="10dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:text="ItemPrice"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="100dp" />
+
+</LinearLayout>

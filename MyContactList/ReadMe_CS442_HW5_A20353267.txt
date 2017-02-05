@@ -1,0 +1,23 @@
+Name : Vedant A Godhamgaonkar
+ID :A20353267
+Assignment: PhoneBook Application
+
+Working of an Application:
+**********************
+1) Open the MyContactList application
+2) First screen will give you the existing contact list of your device
+3) If you want to add a new contact then please provide "Name" & "Phone Number" and then click "Add Contact". After this operation to reflect the changes please press "Refresh Contact List" button. 
+    This operation will refresh your contact list and list out the newly added contact as well
+4) If you want to list your contacts based on your Groups, then please select Group Name from the Spinner and then click "Group Contact". This operation  will list the contacts based on the group name the user has selected
+5) If you want to Edit the current contact listed on this application, please Long Press the Contact you wanted to edit. The edit contact option will be opend. Please Edit the contact, save it and Press "Refresh Contact List" Button
+    This operation will refresh your contact list and list out the newly edited contact as well
+6) If you want to Delete the Contact from your Phonebook Application, please Single Click on the the contact to be deleted. This will open edit contact option. Kindly delete only "Phone Number Fields" and save it.
+    Press "Refresh Contact List" Button, this operation will refresh your contact list and list out the newly edited contact as well
+
+User Interface : Look & Feel
+***************
+1) Only the grouped contacts could be displayed/operated on my phonebook application.
+2) Added background Images
+3) Changed colours and fonts of texts
+4) Added extra look and feel to ListView by providing separate XML
+

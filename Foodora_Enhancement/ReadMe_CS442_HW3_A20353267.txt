@@ -1,0 +1,25 @@
+Name : Vedant A Godhamgaonkar
+ID :A20353267
+Assignment: FOOD ITEM MENU
+
+Working of an Application "Foodora":
+**********************
+1) Open the Foodora application
+2) First screen will give you the existing menu available at Foodora
+3) If you want to pick multiple menu, click the checkboxes against them.
+4) Press the "Place Order" button to add the food items into the cart.
+5) If you are confirmed with the existing selection of food items and total bill dislayed on the screen, please press "Confirm Order" to confirm your order.
+6) If you do not want to confirm the order, please press "Cancel". It will display the Menu items again.
+7) If you want to reset the currently selected items and the amount , please press "Reset" button.
+8) If user wants to see the order history he had placed, Click on "Order History" button. This event will fetch out the results from the databse and displays the order hsitory on separate screen with the following fields :
+a) Item_ID   b) Food_Item_Name  c) Total_Bill Amount   d) Timestamp of the the placed order
+9) Added Functinality : Dialog Box is added, which asks user to choose the Yes or No option
+	                 The Selected Items are seen in the cart with the same look and feel as that of the main screen
+
+User Interface : Look & Feel
+***************
+1) Added background Images
+2) Changed colours and fonts of texts
+4) Added extra look and feel to ListView by providing separate XML
+5) Added dialog box with details and food menu picture
+6) Changed the display pattern of the food order Cart

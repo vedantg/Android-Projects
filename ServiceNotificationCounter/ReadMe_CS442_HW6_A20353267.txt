@@ -1,0 +1,18 @@
+Name : Vedant A Godhamgaonkar
+ID :A20353267
+Assignment: Counter Service and Notification
+
+Working of an Application:
+**********************
+1) Open the CounterService apk
+2) The Screen will ask you to enter the starting value for counter
+3) If you enter some value, the counter will start from that value
+4) If you enter nothing or if you enter any txt value the counter will by default start from 1 as per the specified requirement
+5) The notification will be generated after every 10 seconds once the counter has started. The notification will state the "Current Counter Value" as an information
+6) Please press "Start Counter" to start the counter and to stop the counter please press "Stop Counter"
+7) If you press back button while the counter is running then it will wait for 10 to 15 seconds and then will start the counter from initial value entered by user
+8) This functionality is due to the return type used as "START_REDELIVER_INTENT"
+9) Please refer LOG.TXT file for the logging details. It will demonstrate all the possible examples of counter start value
+
+
+

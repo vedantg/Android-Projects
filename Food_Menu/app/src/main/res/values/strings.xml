@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Foodora</string>
+    <string name="action_settings">Settings</string>
+    <string name="text_view">TextView</string>
+    <string name="btn_finish_dialog_label">Close</string>
+
+</resources>
